@@ -1,9 +1,0 @@
-PySimpleGUI
-
-requests
-
-ecdsa
-
-base58
-
-pyperclip
