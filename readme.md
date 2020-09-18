@@ -31,7 +31,7 @@ and convert this to a WiF private key. Next we generate a 512-bit public key,
 and then take a 160-bit RIPEM-160 hash and convert to a Bitcoin address:
 
 ```
-![Bitcoin wallet recovery](hash.png)
+![Bitcoin wallet recovery](bithash.png)
 
 
 
