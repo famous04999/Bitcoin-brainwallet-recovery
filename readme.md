@@ -1,4 +1,3 @@
-Bitcoin wallet recovery tool
 ![bwrt](MainImage.png)
 
 How it works:
