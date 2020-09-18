@@ -1,3 +1,4 @@
+Bitcoin wallet recovery tool
 ![bwrt](MainImage.png)
 
 How it works:
@@ -89,10 +90,10 @@ WIF:        b'5KYZdUEo39z3FPrtuX2QbbwGnNP5zTd7yyr2SC1j299sBCnWjss'
 -------------------------------------------------------------------------------------------------------------------------------
 
 ```
-![Bitcoin wallet recovery](screenshot.png)
-![Bitcoin wallet recovery](screen1.png)
-![Bitcoin wallet recovery](screen2.png)
-![Bitcoin wallet recovery](screenshot1.png)
+![Bitcoin wallet recovery](screenshot.PNG)
+![Bitcoin wallet recovery](screen1.PNG)
+![Bitcoin wallet recovery](screen2.PNG)
+![Bitcoin wallet recovery](screenshot1.PNG)
 
 
 
