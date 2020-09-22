@@ -1,4 +1,4 @@
-# Bitcoin wallet recovery tool
+# Bitcoin brainwallet recovery tool
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/adrijano/Bitcoin-brainwallet-recovery/)
@@ -127,8 +127,6 @@ You can also use your own Paypal account to donate.
 # Disclaimer
 
 
-**The code within this repository comes with no guarantee, the use of this code is your responsibility.
-
-I take NO responsibility and/or liability for how you choose to use any of the source code available here. By using any of the files available in this repository, you understand that you are AGREEING TO USE AT YOUR OWN RISK. Once again, ALL files available here are for EDUCATION and/or RESEARCH purposes ONLY.**
+**The code within this repository comes with no guarantee, the use of this code is your responsibility.I take NO responsibility and/or liability for how you choose to use any of the source code available here. By using any of the files available in this repository, you understand that you are AGREEING TO USE AT YOUR OWN RISK. Once again, ALL files available here are for EDUCATION and/or RESEARCH purposes ONLY.**
 
 
