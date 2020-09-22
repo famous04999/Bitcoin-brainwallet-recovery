@@ -61,7 +61,7 @@ python3 bwr.py
 ```
 
 
-### Windows:
+### Windows
 ```
 cd dist 
 bwr.exe
