@@ -13,7 +13,7 @@
 
 # If you like it give it a star
 
-[![GitHub stars](https://img.shields.io/github/stars/adrijano/Bitcoin-brainwallet-recovery.svg?style=social&label=Star&maxAge=2592000)](https://github.com/adrijano/Bitcoin-brainwallet-recovery/)
+[![GitHub stars](https://img.shields.io/github/stars/adrijano/Bitcoin-brainwallet-recovery.svg?style=social&label=Star&maxAge=0)](https://github.com/adrijano/Bitcoin-brainwallet-recovery/)
 
 **Programmed in Python | PySimpleGUI**
 
