@@ -95,8 +95,11 @@ def create_main_window(settings):
     right_click_menu = ['Unused', ['&Copy', '&Paste','Settings', 'E&xit']]
     
     layout = [[sg.Menu(menu_def)],
-              [sg.Text('', size=(50,1)), sg.Button('', key='paypal', size=(12,1), font=('Helvetica', 9), button_color=(sg.theme_background_color(), sg.theme_background_color()),
-                                                                image_filename='paypal.png', image_size=(80, 50), image_subsample=2, border_width=0)],
+              [sg.Text('', size=(44,1)),
+               sg.Button('', key='paypal', size=(12,1), font=('Helvetica', 9), button_color=(sg.theme_background_color(), sg.theme_background_color()),
+                         image_filename='paypal.png', image_size=(80, 50), image_subsample=2, border_width=0),
+               sg.Button('', key='bitcoin', size=(12,1), font=('Helvetica', 9), button_color=(sg.theme_background_color(), sg.theme_background_color()),
+                         image_filename='bitcoin.png', image_size=(80, 60), image_subsample=2, border_width=0)],   
               [sg.Image('bit.png', size=(199, 122))],
               [sg.Text('Enter seed phrase:', font=('Helvetica', 9), size=(15,1))],
               [sg.Multiline(size=(98,5), font=('Helvetica', 11), key = 'recovery')],
@@ -108,7 +111,6 @@ def create_main_window(settings):
 
     return sg.Window('Bitcoin wallet recovery',
                      layout=layout,
-                     default_element_size=(12,1),
                      font='Helvetica 18',
                      right_click_menu=right_click_menu)
 
@@ -155,6 +157,9 @@ def main():
 
         elif event == 'paypal':
             webbrowser.open_new_tab("https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=PFB6A6HLAQHC2&source=url")
+        
+        elif event == 'bitcoin':
+            webbrowser.open_new_tab("https://commerce.coinbase.com/checkout/149a6235-ec7e-4d3b-a1ae-b08c4f08b4f6")
 
         elif event in (None, 'Exit'):
             break
